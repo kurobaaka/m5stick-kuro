@@ -609,7 +609,7 @@ void clearSettings(){
   DISP.setRotation(1);
   DISP.setTextColor(BLUE, WHITE);
   DISP.setCursor(40, 0);
-  DISP.println("M5-NEMO");
+  DISP.println("M5-kuro");
   DISP.setTextColor(WHITE, BLUE);
   DISP.setTextSize(SMALL_TEXT);
   DISP.println(TXT_CLRING_SETTINGS);
@@ -1744,7 +1744,7 @@ void credits_setup(){
   DISP.setTextColor(BLACK, WHITE);
   DISP.setTextSize(MEDIUM_TEXT);
   DISP.setCursor(0, 10);
-  DISP.print(" M5-NEMO\n");
+  DISP.print(" M5-kuro\n");
   DISP.setTextSize(SMALL_TEXT);
   DISP.printf("  %s\n",NEMO_VERSION);
   DISP.println(" For M5Stack");
@@ -2224,7 +2224,7 @@ void bootScreen(){
   DISP.fillScreen(BGCOLOR);
   DISP.setTextSize(BIG_TEXT);
   DISP.setCursor(40, 0);
-  DISP.println("M5-NEMO");
+  DISP.println("M5-kuro");
   DISP.setCursor(10, 30);
   DISP.setTextSize(SMALL_TEXT);
   DISP.printf("%s-%s\n",NEMO_VERSION,platformName);

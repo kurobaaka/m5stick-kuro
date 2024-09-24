@@ -1,5 +1,5 @@
 /*
-  Adapted by Milton Matuda to work with M5-NEMO.
+  Adapted by Milton Matuda to work with M5-kuro.
   You cand find a list of #define for other octaves at Robson's Github.
   IG: @35mmatuda | https://github.com/Mmatuda
 */
